@@ -94,7 +94,9 @@ header {
 .link {
     margin-top: 5rem;
     border-bottom: #60dbd5 solid 1px;
-    width: 9.5rem
+    width: 9.5rem;
+    display: block;
+    text-align: center;
 }
 
 .link a {
@@ -115,6 +117,10 @@ header {
     border-radius: 0.5rem;
 }
 
+.Iva{
+    margin-bottom: 0;
+}
+
 .profImg_name{
     display: flex;
 }
@@ -127,6 +133,9 @@ header {
 
 .CTA{
     text-align: center;
+    background-color: #181e2a;
+    padding: 2rem 0rem;
+
 }
 .cta_card{
     margin: auto;
