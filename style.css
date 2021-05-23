@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #1b2330;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo img {
+    width: 7rem;
+    height: 2rem;
+}
+
+nav ul {
+    display: flex;
+    width: 13rem;
+    justify-content: space-evenly;
+
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    color: #e6eaec;
+}
+
+header {
+    padding: 1rem;
+    padding-bottom: 0;
+    background-color: #1b2330 !important;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    background: url("images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 14rem;
+}
+
+.introImage {
+    width: 20rem;
+}
+
+.mainContent {
+    padding: 1rem;
+    background-color: #181e2a;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.mainContent button {
+    background-color: #3eafcf;
+    padding: 1rem;
+    width: 15rem;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 600;
+    margin: 3rem;
+}
+
+.img_desc {
+    margin: 7rem 1rem;
+}
+
+.desc {
+    margin-top: 1rem;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_left h3 {
+    font-size: 1rem;
+}
+
+.link {
+    margin-top: 5rem;
+    border-bottom: #60dbd5 solid 1px;
+    width: 9.5rem
+}
+
+.link a {
+    color: #60dbd5;
+    text-decoration: none;
+}
+
+.testimonials{
+    background-color: #181e2a;
+}
+
+.testimonial_card{
+    background-color: #21293c;
+    width: 20rem;
+    margin: 0rem auto 3rem auto;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.profImg_name{
+    display: flex;
+}
+
+.profImg_name img{
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.CTA{
+    text-align: center;
+}
+.cta_card{
+    margin: auto;
+}
+
+.CTA input{
+    width: 15rem;
+    height: 2.4rem;
+    border-radius: 2rem;
+    border: none;
+    padding: 0.4rem;
+}
+
+.CTA button{
+    width: 15rem;
+    height: 2.4rem;
+    border-radius: 2rem;
+    border: none;
+    padding: 0.4rem;
+    color: white;
+    background-color: #3eafcf;
+    margin-top: 1rem;
+}
+
+footer{
+    background-color: #0c1524;
+    padding: 1rem;
+}
+
+.contact_dets{
+    display: flex;
+    color: white;
+    margin: 1rem;
+}
+
+.cont_icon{
+    margin-right: 0.9rem;
+}
+
+.Lis{
+    padding: 1rem;
+    color: white;
+}
+
+.Lis li{
+    margin: 0.5rem;
+}
+
+.social_icons{
+    text-align: center;
+    color: white;
+}
+.social_icons i{
+    border: 1px white solid;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+
+    header {
+        padding: 1rem;
+        padding-bottom: 0;
+        background-color: #1b2330 !important;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        text-align: center;
+        background: url("images/bg-curvy-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0rem;
+        height: 26rem;
+    }
+
+    header h2{
+        width: 40%;
+        margin: auto;
+    }
+
+    .mainContent p{
+        width: 40%;
+        margin: auto;
+    }
+
+    .features{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .productive{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .introImage{
+        margin: auto;
+        width: 30rem;
+    }
+
+    .text_left h3{
+        text-align: left;
+        font-size: 2rem;
+        width: 20rem;
+    }
+    .prod_h3{
+        font-size: 2rem;
+    }
+    .prod_p{
+        text-align: left;
+    }
+
+    .testimonials{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .CTA{
+        margin: auto;
+        background-color: #181e2a;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .cta_card{
+        width: 40rem;
+        background-color: #1c2230;
+    }
+    .cta_card input{
+        width: 20rem;
+    }
+
+    footer{
+        display: flex;
+        padding: 1rem;
+        background-color: #0c1524;
+    }
+    footer img{
+        width: 10rem;
+        height: 4rem;
+    }
+    
+    .contact_dets{
+        /* display: flex;
+        color: white;
+        margin: 1rem; */
+    }
+    
+    .cont_icon{
+        margin-right: 0.9rem;
+    }
+    
+    .Lis{
+        padding: 1rem;
+        color: white;
+    }
+    
+    .Lis li{
+        margin: 0.5rem;
+    }
+    
+    .social_icons{
+        color: white;
+    }
+    .social_icons i{
+        display: block;
+    }
+}
