@@ -64,6 +64,10 @@ header {
     text-align: center;
 }
 
+.mainContent p{
+    padding-top: 2rem;
+}
+
 .mainContent button {
     background-color: #3eafcf;
     padding: 1rem;
@@ -94,9 +98,7 @@ header {
 .link {
     margin-top: 5rem;
     border-bottom: #60dbd5 solid 1px;
-    width: 9.5rem;
-    display: block;
-    text-align: center;
+    width: 9.5rem
 }
 
 .link a {
@@ -134,7 +136,7 @@ header {
 .CTA{
     text-align: center;
     background-color: #181e2a;
-    padding: 2rem 0rem;
+    padding-top: 2rem 0rem;
 
 }
 .cta_card{
